@@ -14,8 +14,8 @@ const Form = ({createTodo}) => {
         bg-transparent border border-gray-500 p-4 w-[300px]
         text-white mb-8 rounded placeholder:text-gray-300'
         placeholder='What task do you have today?' onChange={(e) => setValue(e.target.value)} value={value}/>
-        <button className='bg-gray-700 border-none p-2
-        text-white cursor-pointer rounded ml-2'>Add Task</button>
+        <button className='bg-gray-700 hover:bg-gray-600 hover:text-gray-300 border-none p-2
+        text-white cursor-pointer rounded ml-2 transition duration-300 ease-in-out'>Add Task</button>
 
     </form>
   )

@@ -15,7 +15,7 @@ const Edit = ({editTodo, task}) => {
         text-white mb-8 rounded placeholder:text-gray-300'
         placeholder='Update Task' onChange={(e) => setValue(e.target.value)} value={value}/>
         <button className='bg-gray-700 border-none p-2
-        text-white cursor-pointer rounded ml-2'>Update Task</button>
+        text-white cursor-pointer rounded ml-2 hover:text-gray-300 hover:bg-gray-600 transition duration-300 ease-in-out'>Update Task</button>
 
     </form>
   )

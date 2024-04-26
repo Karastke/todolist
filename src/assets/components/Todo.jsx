@@ -8,9 +8,9 @@ const Todo = ({task, deleteTodo, editTodo}) => {
     py-3 px-4 rounded-md mb-1 cursor-pointer'>
       <p className='font-primary'>{task.task}</p>
       <div className='flex items-center gap-x-4'>
-        <AiFillEdit className='text-xl'onClick={() => editTodo
+        <AiFillEdit className='text-xl hover:text-gray-500 transition duration-300 ease-in-out'onClick={() => editTodo
           (task.id)}/>
-        <BsFillTrashFill className='text-xl' onClick={() =>
+        <BsFillTrashFill className='text-xl hover:text-gray-500 transition duration-300 ease-in-out' onClick={() =>
         deleteTodo(task.id)}/>
       </div>
       </div>
